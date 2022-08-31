@@ -81,3 +81,11 @@
   transform: scale(1.05);
   box-shadow: 0 0 5px #ccc;
 }
+
+/** game page **/
+
+.game_box {
+  background: #004980;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
