@@ -89,3 +89,52 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.timer_box-text {
+  display: flex;
+  gap: 57px;
+  padding-left: 61px;
+  padding-top: 22px;
+}
+
+.timer_text-min {
+font-family: 'StratosSkyeng';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+color: #FFFFFF;
+}
+
+.timer_text-sec {
+font-family: 'StratosSkyeng';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+color: #FFFFFF;
+}
+
+.timer_numbers-box {
+  display: flex;
+  font-family: 'StratosSkyeng';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 72px;
+color: #FFFFFF;
+padding-left: 22px;
+
+}
+
+.card_box {
+  display: grid;
+  gap: 15px;
+  row-gap: 15px;
+  grid-template-columns: repeat(9, 1fr);
+  padding-left: 26px;
+}
+
+.card {
+  border-radius: 4px;
+}
