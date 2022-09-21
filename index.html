@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Card Game</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   <body class="main_box">
     <div class="level_box">
@@ -17,5 +17,31 @@
       </div>
       <button class="start_button">Старт</button>
     </div>
+    <script>
+      const buttonEasyLvl = document.querySelector('.level_button-one');
+      const buttonMiddleLvl = document.querySelector('.level_button-two');
+      const buttonHardLvl = document.querySelector('.level_button-three');
+      
+      buttonEasyLvl.addEventListener('click', function() {
+        localStorage.clear();
+        localStorage.setItem('lvl', 1);
+        window.location.href = 'game.html';
+      });
+
+      buttonMiddleLvl.addEventListener('click', function() {
+        localStorage.clear();
+        localStorage.setItem('lvl', 2);
+        window.location.href = 'game.html';
+      });
+
+      buttonHardLvl.addEventListener('click', function() {
+        localStorage.clear();
+        localStorage.setItem('lvl', 3);
+        window.location.href = 'game.html';
+      });
+
+
+
+    </script>
   </body>
 </html>

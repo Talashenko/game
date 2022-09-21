@@ -90,11 +90,19 @@
   background-size: cover;
 }
 
+.top_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 23px;
+  padding-right: 23px;
+}
+
 .timer_box-text {
   display: flex;
   gap: 57px;
-  padding-left: 61px;
-  padding-top: 22px;
+  padding-left: 38px;
+  margin-top: 22px;
 }
 
 .timer_text-min {
@@ -123,8 +131,23 @@ font-weight: 400;
 font-size: 64px;
 line-height: 72px;
 color: #FFFFFF;
-padding-left: 22px;
 
+
+}
+
+.button_play-again {
+width: 246px;
+height: 50px;
+background: #7AC100;
+border-radius: 12px;
+border: 0;
+margin-top: 52px;
+transition: all 0.3s;
+}
+
+.button_play-again:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 5px #ccc;
 }
 
 .card_box {
@@ -133,6 +156,7 @@ padding-left: 22px;
   row-gap: 15px;
   grid-template-columns: repeat(9, 1fr);
   padding-left: 26px;
+  padding-top: 40px;
 }
 
 .card {
